@@ -1,6 +1,9 @@
 <template>
-<!-- <div class="text-red-300">welco to upp page</div> -->
+  <div class="bg-red-500 h-screen w-screen">
 <router-view/>
+  </div>
+<!-- <div class="text-red-300">welco to upp page</div> -->
+
 
 
 </template>

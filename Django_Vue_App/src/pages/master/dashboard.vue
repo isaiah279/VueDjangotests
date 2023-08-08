@@ -1,5 +1,5 @@
 <template>
-    <div class="w-screen h-screen  bg-red-300 cover">
+    <!-- <div class="w-screen h-screen  bg-red-300 cover"> -->
  <nav class="flex relative container mx-auto p-6 sm:flex-shrink-1 ">
     <div class="flex justify-between">
         <div class="">
@@ -24,7 +24,7 @@
 </div>
             </nav>
            <section id="hero">
-            <div class="container flex flex-column-reverse  md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0 shrink-10">
+            <div class="container flex flex-col  md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0 shrink-10">
               <!-- form wordings -->
               <div class="flex flex-col pt-10  mr-4">
                 <div class="text-black font-bold">
@@ -51,20 +51,24 @@
         <!--  -->
         <section class="pt-20">
             <!-- container -->
-            <div class="flex flex-row container space-x-6  ml-20 mt-20 flex-shrink">
-                <div class="mx-w-1/2 ">
-                    Open is collection 5000 unique Ntf wh can easily find some NFT and Openbid is largestNtf Market
+            <!--  <div class="flex flex-col mt-24 md:flex-row md:space-x-6"> -->
+                <div class="mx-w-1/2 flex flex-col mt-10 sm:mt-5 md:flex-row md:space-x-6 sm:ml-20 lg:mr-10">
+                    <div class="flex flex-col items-center  space-y-6 md:w-1/3 lg:1/3 sm:flex-col-1 border bg-orange-100 p-6 hover:bg-black duration-500 lg:mt-20">
+                        <img src="../master/img/avatar-anisha.png" alt="" class="h-20  w-16 -mt-20 ">
+                        Open is collection 5000 unique Ntf wh can easily find some NFT and Openbid is largestNtf Market
                     Open is collection 5000 unique Ntf wh can easily find some NFT and Openbid is largestNtf Market
 
-                </div>
-                <div class="mx-w-1/2 h-11">
+                    </div>
+                   <div class="flex flex-col items-center p-6 space-y-6 md:w-1/3 lg:1/3 sm:flex-col-1 border bg-orange-100 sm:mt-20 hover:bg-black duration-500">
+                    <img src="../master/img/avatar-anisha.png" alt="" class="h-20  w-16 -mt-20 ml-10">
+  Open is collection 5000 unique Ntf wh can easily find some NFT and Openbid is largestNtf Market
                     Open is collection 5000 unique Ntf wh can easily find some NFT and Openbid is largestNtf Market
+                   </div>
+                   <div class="flex flex-col items-center p-6 space-y-6 md:w-1/3 lg:1/3 sm:flex-col-1 border bg-orange-100 sm:mt-20 hover:bg-black duration-500">
+                    <img src="../master/img/avatar-anisha.png" alt="" class="h-20  w-16 -mt-20 ml-10">
+  Open is collection 5000 unique Ntf wh can easily find some NFT and Openbid is largestNtf Market
                     Open is collection 5000 unique Ntf wh can easily find some NFT and Openbid is largestNtf Market
-                </div>
-                <div class="mx-w-1/2 h-11 ">
-                    Open is collection 5000 unique Ntf wh can easily find some NFT and Openbid is largestNtf Market
-                    Open is collection 5000 unique Ntf wh can easily find some NFT and Openbid is largestNtf Market
-                </div>
+                   </div>
             </div>
         </section>
         <footer class="pt-20">
@@ -73,7 +77,7 @@
 
             </div>
         </footer>
-        </div>
+        <!-- </div> -->
 </template>
 <script>
 export default{
